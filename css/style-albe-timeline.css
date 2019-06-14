@@ -1,0 +1,204 @@
+.arlo_tm_portfolio_wrapper_all ul#timeline-menu {
+  height: 50px;
+  text-align: center;
+}
+.arlo_tm_portfolio_wrapper_all ul#timeline-menu li {
+  position: relative;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.arlo_tm_portfolio_wrapper_all ul#timeline-menu li a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 5px solid transparent;
+}
+.arlo_tm_portfolio_wrapper_all ul#timeline-menu li a:hover {
+  color: #ef693a;
+  border-bottom: 5px solid #ef693a;
+  font-weight: normal;
+}
+
+.arlo_tm_portfolio_wrapper_all section#timeline {
+  width: 90%;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  position: relative;
+}
+.arlo_tm_portfolio_wrapper_all section#timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 2px;
+  background-color: #ef693a;
+  left: 50%;
+  height: 100%;
+  margin-left: -1.5px;
+}
+.arlo_tm_portfolio_wrapper_all section#timeline article {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.arlo_tm_portfolio_wrapper_all section#timeline article:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.arlo_tm_portfolio_wrapper_all section#timeline > article > div.panel {
+  width: 45%;
+  float: left;
+  background: #fff;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article
+  > div.panel
+  .panel-heading {
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 1.2em;
+  background-color: #ef693a;
+  overflow: hidden;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article
+  > div.panel
+  .panel-heading
+  .panel-title {
+  color: #fff;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article
+  > div.panel
+  .panel-body {
+  padding: 15px;
+  position: relative;
+}
+.arlo_tm_portfolio_wrapper_all section#timeline article div.panel-body:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background: #fff;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article
+  > div.panel
+  .panel-body
+  img {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article
+  > div.panel
+  .panel-footer {
+  padding: 15px;
+  background-color: #eee;
+}
+
+.arlo_tm_portfolio_wrapper_all section#timeline > article.inverted > div.panel {
+  float: right;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article.inverted
+  > div.panel
+  .panel-body:after {
+  left: -5px;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  > article.inverted
+  > div.panel
+  .panel-body
+  img {
+  float: right;
+}
+
+.arlo_tm_portfolio_wrapper_all section#timeline div[class*="group"],
+.arlo_tm_portfolio_wrapper_all section#timeline article div.panel div.badge {
+  display: block;
+  text-align: center;
+  cursor: none;
+  font-weight: bold;
+  -moz-box-shadow: 0 0 0 2px #ef693a, inset 0 2px 0 rgba(0, 0, 0, 0.1),
+    0 3px 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 0 2px #ef693a, inset 0 2px 0 rgba(0, 0, 0, 0.1),
+    0 3px 0 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 2px #ef693a, inset 0 2px 0 rgba(0, 0, 0, 0.1),
+    0 3px 0 2px rgba(0, 0, 0, 0.15);
+}
+.arlo_tm_portfolio_wrapper_all section#timeline div[class*="group"] {
+  width: 65px;
+  font-size: 1.3em;
+  margin: 35px auto;
+  padding: 5px;
+  border-radius: 0px;
+  background: #ef693a;
+  color: #fff;
+}
+.arlo_tm_portfolio_wrapper_all section#timeline article div.panel div.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -25px;
+  border-radius: 50%;
+  font-size: 0.75em;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #ef693a;
+}
+.arlo_tm_portfolio_wrapper_all
+  section#timeline
+  article
+  div.panel
+  div.badge:last-child {
+  background-color: #ef693a;
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 -10px;
+}
+
+/* #myTimeline > a.mylink {
+  color: #ef693a;
+  font-weight: bold;
+}
+#myTimeline > a.mylink:hover {
+  color: #da3203;
+} */
